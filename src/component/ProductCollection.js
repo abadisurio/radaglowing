@@ -7,8 +7,10 @@ const ProductCollection = () => {
     const [productCollection, setProductCollection] = useState(true)
 
     useEffect(() => {
+        const product = require('../utils/products.json')
+        console.log('product', product)
         setLoading(false)
-        setProductCollection([])
+        setProductCollection(product)
     }, [isLoading])
 
 
