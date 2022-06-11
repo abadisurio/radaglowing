@@ -1,15 +1,31 @@
 import React, { useEffect, useState } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useParams } from 'react-router-dom'
+
+const initialFeatured = [
+    {
+        "id": "",
+        "title": "",
+        "body": "",
+        "productListId": ""
+    }
+]
 
 const FeaturedPage = () => {
 
+    let { id } = useParams();
+
     const [isLoading, setLoading] = useState(true)
-    const [productCollection, setProductCollection] = useState(true)
+    const [featuredDetail, setFeaturedDetail] = useState(initialFeatured)
+    const [productCollection, setProductCollection] = useState()
 
     useEffect(() => {
+        const featuredCollection = require('../utils/featured.json')
+        const featuredDetail = featuredCollection.filter(item => String(item.id) === String(id))[0]
+        const productCollection = require('../utils/products.json')
         setLoading(false)
-        setProductCollection([])
-    }, [isLoading])
+        setFeaturedDetail(featuredDetail)
+        setProductCollection(productCollection)
+    }, [isLoading, id])
 
     return (
         <div>
@@ -18,11 +34,10 @@ const FeaturedPage = () => {
                     <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 sm:static">
                         <div className="sm:max-w-lg">
                             <h1 className="text-4xl font font-extrabold tracking-tight text-gray-900 sm:text-6xl">
-                                Summer styles are finally here
+                                {featuredDetail.title}
                             </h1>
                             <p className="mt-4 text-xl text-gray-500">
-                                This year, our new summer collection will shelter you from the harsh elements of a world that doesn't care
-                                if you live or die.
+                                {featuredDetail.body}
                             </p>
                         </div>
                         <div>
@@ -92,13 +107,6 @@ const FeaturedPage = () => {
                                         </div>
                                     </div>
                                 </div>
-
-                                <a
-                                    href="/"
-                                    className="inline-block text-center bg-indigo-600 border border-transparent rounded-md py-3 px-8 font-medium text-white hover:bg-indigo-700"
-                                >
-                                    Shop Collection
-                                </a>
                             </div>
                         </div>
                     </div>
@@ -108,11 +116,12 @@ const FeaturedPage = () => {
                 <div className="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
                     <h2 className="text-2xl font-extrabold tracking-tight text-gray-900">Customers also purchased</h2>
 
-                    <div className="mt-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+                    <div className="mt-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-4 lg:grid-cols-6 xl:gap-x-8">
                         {isLoading
                             ? <h1>isLoading</h1>
-                            : productCollection.map((product) => {
-                                const price = new Intl.NumberFormat('id-ID', { style: 'currency', currency: 'IDR' }).format(product.price);
+                            : (featuredDetail.productListId.split(", ")).map((productId) => {
+                                const product = productCollection.filter(item => String(item.id) === String(productId))[0]
+                                console.log('product', product)
                                 return (
                                     <div key={product.id} className="group relative">
                                         <div className="w-full min-h-80 bg-gray-200 aspect-w-1 aspect-h-1 rounded-md overflow-hidden group-hover:opacity-75 lg:h-80 lg:aspect-none">
@@ -132,7 +141,6 @@ const FeaturedPage = () => {
                                                 </h3>
                                                 <p className="mt-1 text-sm text-gray-500">{product.color}</p>
                                             </div>
-                                            <p className="text-sm font-medium text-gray-900">{price}</p>
                                         </div>
                                     </div>
                                 )
