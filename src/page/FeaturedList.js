@@ -26,21 +26,22 @@ const FeaturedListPage = () => {
     return (
         <div className="bg-white">
             <div className="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
-                <h2 className="text-2xl font-extrabold tracking-tight text-gray-900">Your recommendation</h2>
+                <h2 className="text-2xl font-extrabold tracking-tight text-gray-900">Featured digest untuk skin care yang cocok</h2>
 
-                <div className="mt-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+                <div className="mt-6 grid grid-cols-1 gap-y-5 gap-x-4 md:grid-cols-2 ">
                     {isLoading
                         ? <h1>isLoading</h1>
                         : featuredCollection.map((featured) => {
                             return (
 
-                                <div key={featured.id} className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+                                <div key={featured.id} className="w-full bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+                                    {featured.cover && <img className='rounded-t-md h-48 w-full object-cover' src={featured.cover} alt="alt" />}
                                     <Link to={"/featured/" + featured.id}>
                                         <img className="rounded-t-lg" src="/docs/images/blog/image-1.jpg" alt="" />
                                     </Link>
                                     <div className="p-5">
                                         <Link to={"/featured/" + featured.id}>
-                                            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{featured.title}</h5>
+                                            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white line-clamp-2">{featured.title}</h5>
 
                                         </Link>
                                         <p className="mb-3 font-normal text-gray-700 dark:text-gray-400 line-clamp-2">{featured.body}</p>
