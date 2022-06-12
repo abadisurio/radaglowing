@@ -1,8 +1,142 @@
 [
   {
     "id": 0,
-    "title": "Suplemen untuk Pagi Hari",
-    "body": "Baca deh vnrlagwib euohf reuxhvg freuhfv ueirv euhrg beihb urhb vuei bsv hbfbdsujkhbdfnuo bsdf ouidbv ois bodsb ndsi gdsnuo vbduogv bi",
-    "productListId": "2, 4, 7, 11"
+    "title": "Mau Kulit Glowing di Pagi Hari? Yuk Lakukan Ini Tiap Pagi!",
+    "cover": "https://images.unsplash.com/photo-1493770348161-369560ae357d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8aGVhbHRoeSUyMGJyZWFrZmFzdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1400&q=60",
+    "body": "Menjaga kecantikan dan kesehatan kulit adalah sebuah rutinitas yang harus dilakukan. Jika kamu ingin memiliki kulit yang selalu maksimal, tentu membutuhkan usaha ekstra. Mengaplikasikan skincare routine secara konsisten akan menjadi kebiasaan, sehinga kulit glowing terawat bukan hanya impian.\nMeski memakan cukup banyak waktu di pagi hari, kamu bisa mencoba bangun lebih cepat dari biasanya untuk memberikan nutrisi lengkap pada kulit. Sedikit berkorban untuk tampil glowing, tentu tidak masalah bukan?\nMorning routine bukan hanya membersihkan kulit dari kotoran yang menempel selama semalaman saat tidur, namun juga mempersiapkan kulit sehingga siap untuk menjalani hari. Selain itu, jika kulit telah sehat, makeup yang kamu gunakan juga bisa dengan mudah menempel dan akan terlihat lebih bagus tentunya.\nSudah siap untuk glowing bersama radaGlow? Lantas apa saja langkah-langkah morning routine yang tepat agar hasilnya maksimal? Berikut 9 langkah skincare rutin untuk tampil maksimal di pagi hari.",
+    "productListId": ""
+  },
+  {
+    "id": 1,
+    "title": "Giman Sih Cara Mencuci wajah yang Benar?",
+    "cover": "https://images.unsplash.com/photo-1593155726603-89149b7cbfd6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d2FzaCUyMGZhY2V8ZW58MHx8MHx8&auto=format&fit=crop&w=1400&q=60",
+    "body": "Awali pagimu dengan mencuci wajah. Hal ini dapat membantumu terbangun dengan sempurna, dan kulit juga menjadi lebih bersih. Kulit menghasilkan minyak dan kotoran di malam hari, sehingga dengan mencuci wajah bisa membersihkannya dari kulit.",
+    "productListId": ""
+  },
+  {
+    "id": 2,
+    "title": "Membersihkan wajah",
+    "cover": "",
+    "body": "Setelah membasuh wajahmu, lanjutkan dengan membersihkannya. Gunakan pembersihan wajah yang mendalam dengan menggunakan milk cleanser dan micelar water. Setelah kulit dirasa cukup bersih, lanjutkan dengan membersihkannya menggunakan sabun cuci wajah yang sesuai dengan jenis kulitmu.",
+    "productListId": "5, 1"
+  },
+  {
+    "id": 3,
+    "title": "Eksfoliasi",
+    "cover": "",
+    "body": "Eksfoliasi kulit merupakan salah satu langkah skincare routine yang penting. Hal ini karena kulit mengalami regenerasi kulit yang butuh dibersihkan secara berkala. Eksfoliasi membantu mengangkat sel kulit mati pada wajah, sehingga pori-pori lebih bersih dan kulit terlihat sehat.",
+    "productListId": 5
+  },
+  {
+    "id": 4,
+    "title": "Berikan kulitmu toner",
+    "cover": "",
+    "body": "Setelah membersihkan kulit, ini adalah waktunya memberikan toner pada kulit wajahmu. Toner membantu menyeimbangkan pH kulit sehingga lebih sehat. Selain itu toner juga memberikan nutrisi yang dibutuhkan kulit. Toner juga bermanfaat untuk membantu mengecilkan pori-pori pada kulit.",
+    "productListId": 17
+  },
+  {
+    "id": 5,
+    "title": "Aplikasikan serum",
+    "cover": "",
+    "body": "Selanjutnya aplikasikan serum pada kulitmu. Serum menjadi membantu mengatasi permasalahan spesifik pada kulitmu. Biasanya serum mengandung bahan dasar dengan konsentrasi yang tinggi sehingga hasilnya lebih terlihat. Jenis serum yang bisa kamu pilih sesuai dengan permasalahan kulit diantaranya untuk mencerahkan kulit, menghidrasi, menghilangkan flek hitam, hingga menghidrasi.",
+    "productListId": "3, 16"
+  },
+  {
+    "id": 6,
+    "title": "Pakai pelembap",
+    "cover": "",
+    "body": "Setelah serum sempurnakan nutrisi untuk kulitmu dengan mengaplikasikan pelembap. Rutinitas sebelumnya membuat kulitmu terasa kering. Kamu perlu membuatnya lembap dengan menggunakan pelembap sesuai dengan jenis kulit.",
+    "productListId": "8, 9, 10, 18"
+  },
+  {
+    "id": 7,
+    "title": "Pakai sunscreen",
+    "cover": "",
+    "body": "Selanjutnya proteksi kult dengan menggunakan sunscreen. Sunscreen melindungi kulit dari bahaya sinar ultraviolet. Selain itu, menggunakan sunscreen secara rutin juga menyamarkan tanda-tanda penuaan dini pada kulit.",
+    "productListId": 7
+  },
+  {
+    "id": 8,
+    "title": "Sedang Berjerawat? Jangan Lupa Pakai Obat Jerawat Dulu Yaa",
+    "cover": "",
+    "body": "Pasti banyak diantara kita yang masih suka jerawatan, memang sih jerawat bukan hal yang harus ditakuti tapi gak ada salahnya kan jika kita membasmi jerawat agar cepat hilang? Apalagi jika kita mau pergi ke acara penting dimana make up akan terlihat lebih perfect tanpa eksistensi dari si jerawat. Lalu gimana cara yang tepat untuk membasmi jerawat? Salah satu cara ‘tercepat’ adalah dengan menggunakan obat jerawat, tapi tenang, radaGlow punya rekomendasi produk obat jerawat yang ampuh menghilangkan jerawat sekaligus dapat menutupi jerawat kamu layaknya concealer loh!  Para acne prone skin wajib banget punya Red Tock Spot by So Natural. Acne spot treatment + concealer ini 2in1! Obat Jerawat dan Concealer jadi 1. Anti ribet banget kan dengan satu produk dapat dipakai sebagai concealer maupun obat jerawat. Penasaran? Yuk intip produknya di bawah ini!",
+    "productListId": 2
+  },
+  {
+    "id": 9,
+    "title": "Hidrasi Kulit dari Dalam dan Sarapan dengan Makanan Sehat",
+    "cover": "https://images.unsplash.com/photo-1624948465027-6f9b51067557?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8ZHJpbmslMjB3YXRlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1400&q=60",
+    "body": "Selain dari luar, kamu juga perlu menghidrasi kulit dari dalam dengan rutin melakukan detoks pada tubuh dengan mengonsumsi air di pagi hari. Hal ini membantu mengeluarkan racun pada tubuhmu sehingga kulit juga ikut terlihat lebih bersih dan sehat.\nTerakhir, pilihalah sarapan yang sehat untuk kecantikan kulitmu. Makanan sehat seperti gandum dan buah-buahan bisa membantu kulit terlihat lembap dan glowing seharian.",
+    "productListId": ""
+  },
+  {
+    "id": 10,
+    "title": "Pengen Wajah Mulus dan Glowing? Jangan Lewatkan 8 Skincare Routine Ini Tiap Malam!",
+    "cover": "",
+    "body": "Malam hari adalah waktunya mengistirahatkan tubuh dan mental, termasuk juga kulit. Saat tidur, sel kulit baru tumbuh lebih cepat, sehingga pentingnya skincare night routine harus menjadi prioritas. Selain memperbaiki kerusakan sel-sel kulit karena polusi, radiasi sinar matahari, stres dan melembabkan kulit karena saat tidur kulit kehilangan lebih banyak cairan. Lalu, bagaimana skincare routine yang benar? Simak ya sahabat radaGlow!",
+    "productListId": ""
+  },
+  {
+    "id": 11,
+    "title": "Remove Make-Up",
+    "cover": "",
+    "body": "Langkah pertama untuk perawatan malam hari adalah membersihkan make-up. Pilih pembersih berbasis minyak (oil-based cleanser) untuk langkah pertama karena untuk menghilangkan make-up dan kotoran serta minyak dari kulit.",
+    "productListId": "13, 5"
+  },
+  {
+    "id": 12,
+    "title": "Double Cleanser",
+    "cover": "",
+    "body": "Setelah menggunakan oil-based cleanser, langkah selanjutnya adalah gunakan water-based cleanser untuk mengangkat dan menghilangkan sisa minyak, kotoran serta zat perusak radikal bebas di wajah. Jangan lupa bersihkan pula bagian leher dan dada untuk menghindari jerawat.",
+    "productListId": "12, 1"
+  },
+  {
+    "id": 13,
+    "title": "Eksfoliasi",
+    "cover": "",
+    "body": "Langkah selanjutnya adalah melakukan eksfoliasi wajah. Kamu bisa melakukan eksfoliasi dua kali seminggu dengan menggunakan scrub yang lembut untuk menghilangkan sel kulit mati yang membuat kulit kusam dan menyumbat pori-pori.",
+    "productListId": 3
+  },
+  {
+    "id": 14,
+    "title": "Toner",
+    "cover": "",
+    "body": "Seperti halnya perawatan wajah di pagi hari, langkah selanjutnya adalah gunakan toner untuk menyeimbangkan tingkat pH kulit. Saat menggunakan toner, cukup tepuk-tepuk pada kulit wajah dengan kapas agar meresap di kulit. Selalu hindari menggunakan toner dengan cara menggosok di wajah.",
+    "productListId": 17
+  },
+  {
+    "id": 15,
+    "title": "Serum",
+    "cover": "",
+    "body": "Serum merupakan step yang cukup ampuh untuk mengatasi permasalahan pada kulit. Pastikan kamu memilih dengan tepat produk sesuai dengan kebutuhan dan permasalahan kulitmu. Ada baiknya lebih fokus pada hidrasi wajah dan regenerasi pada malam hari, sembari menggunakan serum vitamin C yang kaya antioksidan pada siang hari.",
+    "productListId": "3, 16"
+  },
+  {
+    "id": 16,
+    "title": "Face Mask (Sheet Mask or Clay Mask? Choose as You Need!)",
+    "cover": "",
+    "body": "Untuk menjaga kelembaban kulit dan mencegah penuaan pada kulit, kamu bisa menambahkan sheet mask pada perawatan skincare di malam hari. Selain itu, kamu juga bisa mengguna clay mask 2 kali seminggu untuk mengangkat komedo-komedo atau memanjakan kulitmu sesuai dengan kegunaan clay mask yang kamu pilih. Dengan banyaknya pilihan face mask yang tersedia di pasaran, kamu tak perlu bingung. Pilih sesuai dengan kondisi dan kebutuhan kulitmu ya. Selain itu, sebelum membeli face mask pilihanmu, kamu juga bisa cek review brand sheet mask di internet.",
+    "productListId": "11, 20, 14"
+  },
+  {
+    "id": 19,
+    "title": "Moisturizer",
+    "cover": "",
+    "body": "Setelah maskeran sempurnakan nutrisi untuk kulitmu dengan mengaplikasikan pelembap. Penggunaan clay mask membuat kulitmu terasa kering. Kamu perlu membuatnya lembap dengan menggunakan pelembap sesuai dengan jenis kulit.",
+    "productListId": "8, 9, 18, 10, 14"
+  },
+  {
+    "id": 20,
+    "title": "Night Cream",
+    "cover": "",
+    "body": "Langkah terakhir tapi tak kalah penting dalam skincare routine malam kamu adalah night cream. Fungsi dari night cream ini adalah untuk mengunci efek dari semua produk atau skincare yang sudah kamu lakukan pada langkah-langkah sebelumnya. Dan bersiaplah bangun dengan kulit wajah yang bersinar!",
+    "productListId": "19, 15, 14"
+  },
+  {
+    "id": 21,
+    "title": "",
+    "cover": "",
+    "body": "",
+    "productListId": ""
   }
 ]

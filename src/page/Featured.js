@@ -21,6 +21,7 @@ const FeaturedPage = () => {
     useEffect(() => {
         const featuredCollection = require('../utils/featured.json')
         const featuredDetail = featuredCollection.filter(item => String(item.id) === String(id))[0]
+        // console.log('featuredDetail', featuredDetail)
         const productCollection = require('../utils/products.json')
         setLoading(false)
         setFeaturedDetail(featuredDetail)
@@ -29,10 +30,12 @@ const FeaturedPage = () => {
         return () => { document.title = "Rada Glow" }
     }, [isLoading, id])
 
+    const recommendationId = featuredDetail.productListId ? featuredDetail.productListId.split(", ") : []
+
     return (
         <div>
             <div className="relative bg-white overflow-hidden">
-                <div className="pt-16 pb-80 sm:pt-24 sm:pb-40 lg:pt-40 lg:pb-48">
+                <div className=" py-16">
                     <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 sm:static">
                         <div className="sm:max-w-lg">
                             <h1 className="text-4xl font font-extrabold tracking-tight text-gray-900 sm:text-6xl">
@@ -42,112 +45,56 @@ const FeaturedPage = () => {
                                 {featuredDetail.body}
                             </p>
                         </div>
-                        <div>
-                            <div className="mt-10">
-                                {/* Decorative image grid */}
-                                <div
-                                    aria-hidden="true"
-                                    className="pointer-events-none lg:absolute lg:inset-y-0 lg:max-w-7xl lg:mx-auto lg:w-full"
-                                >
-                                    <div className="absolute transform sm:left-1/2 sm:top-0 sm:translate-x-8 lg:left-1/2 lg:top-1/2 lg:-translate-y-1/2 lg:translate-x-8">
-                                        <div className="flex items-center space-x-6 lg:space-x-8">
-                                            <div className="flex-shrink-0 grid grid-cols-1 gap-y-6 lg:gap-y-8">
-                                                <div className="w-44 h-64 rounded-lg overflow-hidden sm:opacity-0 lg:opacity-100">
-                                                    <img
-                                                        src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-01.jpg"
-                                                        alt=""
-                                                        className="w-full h-full object-center object-cover"
-                                                    />
-                                                </div>
-                                                <div className="w-44 h-64 rounded-lg overflow-hidden">
-                                                    <img
-                                                        src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-02.jpg"
-                                                        alt=""
-                                                        className="w-full h-full object-center object-cover"
-                                                    />
-                                                </div>
-                                            </div>
-                                            <div className="flex-shrink-0 grid grid-cols-1 gap-y-6 lg:gap-y-8">
-                                                <div className="w-44 h-64 rounded-lg overflow-hidden">
-                                                    <img
-                                                        src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-03.jpg"
-                                                        alt=""
-                                                        className="w-full h-full object-center object-cover"
-                                                    />
-                                                </div>
-                                                <div className="w-44 h-64 rounded-lg overflow-hidden">
-                                                    <img
-                                                        src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-04.jpg"
-                                                        alt=""
-                                                        className="w-full h-full object-center object-cover"
-                                                    />
-                                                </div>
-                                                <div className="w-44 h-64 rounded-lg overflow-hidden">
-                                                    <img
-                                                        src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-05.jpg"
-                                                        alt=""
-                                                        className="w-full h-full object-center object-cover"
-                                                    />
-                                                </div>
-                                            </div>
-                                            <div className="flex-shrink-0 grid grid-cols-1 gap-y-6 lg:gap-y-8">
-                                                <div className="w-44 h-64 rounded-lg overflow-hidden">
-                                                    <img
-                                                        src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-06.jpg"
-                                                        alt=""
-                                                        className="w-full h-full object-center object-cover"
-                                                    />
-                                                </div>
-                                                <div className="w-44 h-64 rounded-lg overflow-hidden">
-                                                    <img
-                                                        src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-07.jpg"
-                                                        alt=""
-                                                        className="w-full h-full object-center object-cover"
-                                                    />
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+
                     </div>
                 </div>
             </div>
             <div className="bg-white">
                 <div className="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
-                    <h2 className="text-2xl font-extrabold tracking-tight text-gray-900">Customers also purchased</h2>
+                    <h2 className="text-2xl font-extrabold tracking-tight text-gray-900">Rada Glow Pick</h2>
 
                     <div className="mt-6 grid grid-cols-3 gap-y-10 gap-x-6 sm:grid-cols-4 lg:grid-cols-6 xl:gap-x-8">
                         {isLoading
                             ? <h1>isLoading</h1>
-                            : (featuredDetail.productListId.split(", ")).map((productId) => {
-                                const product = productCollection.filter(item => String(item.id) === String(productId))[0]
-                                console.log('product', product)
-                                return (
-                                    <div key={product.id} className="group relative">
-                                        <div className="w-full min-h-80 bg-gray-200 aspect-w-1 aspect-h-1 rounded-md overflow-hidden group-hover:opacity-75 lg:h-80 lg:aspect-none">
-                                            <img
-                                                src={product.photo_1}
-                                                alt={product.imageAlt}
-                                                className="w-full h-full object-center object-cover lg:w-full lg:h-full"
-                                            />
-                                        </div>
-                                        <div className="mt-4 flex justify-between">
-                                            <div>
-                                                <h3 className="text-sm text-gray-700">
-                                                    <Link to={`/product/${product.id}`}>
-                                                        <span aria-hidden="true" className="absolute inset-0" />
-                                                        {product.name}
-                                                    </Link>
-                                                </h3>
-                                                <p className="mt-1 text-sm text-gray-500">{product.color}</p>
+                            : recommendationId.length === 0
+                                ? null
+                                : recommendationId.map((productId) => {
+                                    const product = productCollection.filter(item => String(item.id) === String(productId))[0]
+                                    console.log('product', product)
+                                    return (
+                                        <div key={product.id} className="group relative">
+                                            <div className="w-full min-h-80 bg-gray-200 aspect-w-1 aspect-h-1 rounded-md overflow-hidden group-hover:opacity-75 lg:h-80 lg:aspect-none">
+                                                <img
+                                                    src={product.photo_1}
+                                                    alt={product.imageAlt}
+                                                    className="w-full h-full object-center object-cover lg:w-full lg:h-full"
+                                                />
+                                            </div>
+                                            <div className="mt-4 flex justify-between">
+                                                <div>
+                                                    <h3 className="text-sm text-gray-700">
+                                                        <Link to={`/product/${product.id}`}>
+                                                            <span aria-hidden="true" className="absolute inset-0" />
+                                                            {product.name}
+                                                        </Link>
+                                                    </h3>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                )
-                            })
+                                    )
+                                })
                         }
+                        <div className="group relative h-full">
+                            <div className="w-full h-full bg-gray-200 aspect-w-1 aspect-h-1 rounded-md overflow-hidden group-hover:opacity-75 lg:aspect-none">
+
+                                <Link
+                                    to="/explore"
+                                    className="w-full h-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"
+                                >
+                                    Lihat produk lainnya
+                                </Link>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
