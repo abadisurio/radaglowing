@@ -1,9 +1,13 @@
 import { ShoppingBagIcon, EmojiHappyIcon } from '@heroicons/react/outline'
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 
 
 const CheckedOut = () => {
+    useEffect(() => {
+        document.title += " - Thank you"
+        return () => { document.title = "Rada Glow" }
+    }, [])
     return (
         <div className='h-screen justify-center flex'>
             <div className='text-center p-5 self-center'>

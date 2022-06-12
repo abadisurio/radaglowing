@@ -40,6 +40,8 @@ const Cart = () => {
 
     useEffect(() => {
         setOpen(true)
+        document.title += " - Cart"
+        return () => { document.title = "Rada Glow" }
         // const cart = cart
         // console.log('cart', cart)
         // console.log('test')

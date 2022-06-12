@@ -19,7 +19,8 @@ const FeaturedListPage = () => {
         console.log('featuredCollection', featuredCollection)
         setFeaturedCollection(featuredCollection)
         setLoading(false)
-
+        document.title += " - Featured"
+        return () => { document.title = "Rada Glow" }
     }, [isLoading])
 
     return (
