@@ -33,10 +33,15 @@ const Cart = () => {
         }, 500)
     }
 
+    const removeProduct = (id) => {
+        // console.log('id', id)
+        cart.removeProduct(id)
+    }
+
     useEffect(() => {
         setOpen(true)
         // const cart = cart
-        console.log('cart', cart)
+        // console.log('cart', cart)
         // console.log('test')
 
     }, [cart])
@@ -46,7 +51,7 @@ const Cart = () => {
 
     useEffect(() => {
         const product = require('../utils/products.json')
-        // console.log('product', product)
+        // console.log('product', cart)
         setLoading(false)
         setProductCollection(product)
         const finalCart = cart.productList.map((id, index) => ({ ...productCollection.filter(item => item.id === id)[0] }))
@@ -62,14 +67,14 @@ const Cart = () => {
     }, [location])
 
     useEffect(() => {
-        console.log('finalCart', finalCart)
+        // console.log('finalCart', finalCart)
         const finalPrice = (finalCart).reduce((prev, current) => {
-            console.log('prev.price', prev)
-            console.log('current', current.price)
+            // console.log('prev.price', prev)
+            // console.log('current', current.price)
             return prev + current.price
         }, 0)
         const currencyPrice = Intl.NumberFormat('id-ID', { style: 'currency', currency: 'IDR' }).format(finalPrice);
-        console.log('currencyPrice', currencyPrice)
+        // console.log('currencyPrice', currencyPrice)
         setFinalPrice(currencyPrice)
 
     }, [finalCart])
@@ -151,6 +156,7 @@ const Cart = () => {
                                                                             <div className="flex">
                                                                                 <button
                                                                                     type="button"
+                                                                                    onClick={() => removeProduct(index)}
                                                                                     className="font-medium text-indigo-600 hover:text-indigo-500"
                                                                                 >
                                                                                     Remove
