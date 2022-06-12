@@ -17,6 +17,7 @@ import {
 } from '@heroicons/react/outline'
 import { ChevronDownIcon } from '@heroicons/react/solid'
 import { Link } from 'react-router-dom'
+import useGaTRacker from '../utils/useGaTRacker'
 
 const solutions = [
     {
@@ -81,6 +82,9 @@ function classNames(...classes) {
 }
 
 export default function Header() {
+
+    const gaEventTracker = useGaTRacker('Explore Page');
+
     return (
         <Popover className="relative bg-white">
             <div className="max-w-7xl mx-auto px-4 sm:px-6">
@@ -242,11 +246,11 @@ export default function Header() {
                         </div>
                         <div className="py-6 px-5 space-y-6">
                             <div className="grid grid-cols-2 gap-y-4 gap-x-8">
-                                <Link to="/" className="text-base font-medium text-gray-900 hover:text-gray-700">
+                                <Link to="/" onClick={() => gaEventTracker('call')} className="text-base font-medium text-gray-900 hover:text-gray-700">
                                     Pricing
                                 </Link>
 
-                                <Link to="/" className="text-base font-medium text-gray-900 hover:text-gray-700">
+                                <Link to="/" onClick={() => gaEventTracker('call')} className="text-base font-medium text-gray-900 hover:text-gray-700">
                                     Docs
                                 </Link>
                                 {resources.map((item) => (
@@ -261,14 +265,14 @@ export default function Header() {
                             </div>
                             <div>
                                 <Link
-                                    Link to="/"
+                                    Link to="/" onClick={() => gaEventTracker('call')}
                                     className="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"
                                 >
                                     Sign up
                                 </Link>
                                 <p className="mt-6 text-center text-base font-medium text-gray-500">
                                     Existing customer?{' '}
-                                    <Link to="/" className="text-indigo-600 hover:text-indigo-500">
+                                    <Link to="/" onClick={() => gaEventTracker('call')} className="text-indigo-600 hover:text-indigo-500">
                                         Sign in
                                     </Link>
                                 </p>
