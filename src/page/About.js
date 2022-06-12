@@ -19,15 +19,15 @@ const About = () => {
                     Pesananmu akan kami proses
                 </p> */}
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-4 px-5">
-                    <a href="https://linkedin.com/in/abadisurio" rel='noreferrer' target={'_blank'} className="p-5 hover:bg-blue-200 transition duration-150 rounded-lg">
+                    <a href="https://linkedin.com/in/abadisurio" rel='noreferrer' target={'_blank'} className=" hover:bg-blue-200 transition duration-150 rounded-lg">
                         <div className="mx-auto inline-block ring-white rounded-full h-32 w-32 overflow-hidden flex justify-center bg-gradient-to-b from-indigo-500 to-violet-300">
                             <img class="object-cover" src={require('../asset/image/Abadi.png')} alt="Foto Abadi" />
                         </div>
-                        <h1 className='mt-3 mb-0 text-xl font-bold text-slate-700'>Abadi Suryo</h1>
+                        <h1 className='mt-3 mb-0 text-xl font-bold text-slate-700'>Abadi Suryo S.</h1>
                         <h1 className='text-lg font-bold text-slate-500'>Code</h1>
                         <h1 className='text-lg font-bold text-white'>See LinkedIn</h1>
                     </a>
-                    <a href="https://www.linkedin.com/in/arosochiyosua/" rel='noreferrer' target={'_blank'} className="p-5 hover:bg-blue-200 transition duration-150 rounded-lg">
+                    <a href="https://www.linkedin.com/in/arosochiyosua/" rel='noreferrer' target={'_blank'} className=" hover:bg-blue-200 transition duration-150 rounded-lg">
                         <div className="mx-auto inline-block ring-white rounded-full h-32 w-32 overflow-hidden flex justify-center bg-gradient-to-b from-orange-500 to-amber-400">
                             <img class="object-cover" src={require('../asset/image/Archi.png')} alt="Foto Arosochi" />
                         </div>
@@ -35,7 +35,7 @@ const About = () => {
                         <h1 className='text-lg font-bold text-slate-500'>Product</h1>
                         <h1 className='text-lg font-bold text-white'>See LinkedIn</h1>
                     </a>
-                    <a href="https://www.linkedin.com/in/daviadi-auzan-fadhlillah-10878a183/" rel='noreferrer' target={'_blank'} className="p-5 hover:bg-blue-200 transition duration-150 rounded-lg">
+                    <a href="https://www.linkedin.com/in/daviadi-auzan-fadhlillah-10878a183/" rel='noreferrer' target={'_blank'} className=" hover:bg-blue-200 transition duration-150 rounded-lg">
                         <div className="mx-auto inline-block ring-white rounded-full h-32 w-32 overflow-hidden flex justify-center bg-gradient-to-b from-rose-600 to-fuchsia-500">
                             <img class="object-cover" src={require('../asset/image/Daviadi.png')} alt="Foto Daviadi" />
                         </div>
@@ -43,7 +43,7 @@ const About = () => {
                         <h1 className='text-lg font-bold text-slate-500'>Analytics</h1>
                         <h1 className='text-lg font-bold text-white'>See LinkedIn</h1>
                     </a>
-                    <a href="http://www.linkedin.com/in/rahma-nur-annisa-16962214a/" rel='noreferrer' target={'_blank'} className="p-5 hover:bg-blue-200 transition duration-150 rounded-lg">
+                    <a href="http://www.linkedin.com/in/rahma-nur-annisa-16962214a/" rel='noreferrer' target={'_blank'} className=" hover:bg-blue-200 transition duration-150 rounded-lg">
                         <div className="mx-auto inline-block ring-white rounded-full h-32 w-32 overflow-hidden flex justify-center bg-gradient-to-b from-lime-600 to-yellow-300">
                             <img class="object-cover" src={require('../asset/image/Rahma.png')} alt="Foto Rahma" />
                         </div>
