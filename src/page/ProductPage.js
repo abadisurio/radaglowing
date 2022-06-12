@@ -36,6 +36,9 @@ const ProductPage = () => {
         const productDetail = productCollection.filter(item => String(item.id) === String(id))[0]
         // console.log('productDetail', productDetail)
         setProductDetail(productDetail)
+        document.title += " - " + productDetail.name
+
+        return () => { document.title = "Rada Glow" }
     }, [isLoading, id])
 
     return (
