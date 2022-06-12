@@ -1,0 +1,27 @@
+[debug] [2022-06-12T18:17:11.808Z] ----------------------------------------------------------------------
+[debug] [2022-06-12T18:17:11.809Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy --only hosting:radaglow
+[debug] [2022-06-12T18:17:11.809Z] CLI Version:   10.9.2
+[debug] [2022-06-12T18:17:11.809Z] Platform:      darwin
+[debug] [2022-06-12T18:17:11.809Z] Node Version:  v16.13.0
+[debug] [2022-06-12T18:17:11.810Z] Time:          Mon Jun 13 2022 01:17:11 GMT+0700 (Western Indonesia Time)
+[debug] [2022-06-12T18:17:11.810Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-06-12T18:17:11.852Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-06-12T18:17:11.853Z] > authorizing via signed-in user (abadisuryosetiyo@gmail.com)
+[debug] [2022-06-12T18:17:11.853Z] [iam] checking project placebo-9d52b for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2022-06-12T18:17:11.854Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/placebo-9d52b:testIamPermissions [none]
+[debug] [2022-06-12T18:17:11.854Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/placebo-9d52b:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-06-12T18:17:12.908Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/placebo-9d52b:testIamPermissions 200
+[debug] [2022-06-12T18:17:12.908Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/placebo-9d52b:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-06-12T18:17:12.910Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/placebo-9d52b [none]
+[debug] [2022-06-12T18:17:13.261Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/placebo-9d52b 200
+[debug] [2022-06-12T18:17:13.261Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/placebo-9d52b {"projectId":"placebo-9d52b","projectNumber":"606251430494","displayName":"placebo","name":"projects/placebo-9d52b","resources":{"hostingSite":"placebo-9d52b","realtimeDatabaseInstance":"placebo-9d52b","storageBucket":"placebo-9d52b.appspot.com","locationId":"us-central"},"state":"ACTIVE"}
+[info] 
+[info] === Deploying to 'placebo-9d52b'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2022-06-12T18:17:13.264Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/placebo-9d52b [none]
+[debug] [2022-06-12T18:17:13.816Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/placebo-9d52b 200
+[debug] [2022-06-12T18:17:13.816Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/placebo-9d52b {"projectId":"placebo-9d52b","projectNumber":"606251430494","displayName":"placebo","name":"projects/placebo-9d52b","resources":{"hostingSite":"placebo-9d52b","realtimeDatabaseInstance":"placebo-9d52b","storageBucket":"placebo-9d52b.appspot.com","locationId":"us-central"},"state":"ACTIVE"}
+[debug] [2022-06-12T18:17:13.819Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/606251430494/sites/radaglow/versions [none]
+[debug] [2022-06-12T18:17:13.819Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/606251430494/sites/radaglow/versions {"config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"}}
