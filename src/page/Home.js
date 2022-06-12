@@ -8,12 +8,12 @@ const Home = () => {
             <div className='h-full justify-center flex'>
                 <div className='sm:text-center lg:text-left p-5 self-center'>
                     <h1 className="text-5xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-7xl">
-                        <span className="block xl:inline">Data to enrich your</span>{' '}
-                        <span className="block text-indigo-600 xl:inline">online business</span>
+                        <span className="block xl:inline">Skin Care</span>{' '}
+                        <span className="block text-indigo-600 xl:inline">khusus buat kamu si paling <span className='underline'>kere</span></span>
                     </h1>
                     <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-                        Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
-                        fugiat veniam occaecat fugiat aliqua.
+                        Boleh dilihat-lihat dulu kakak produk yang kami tawarkan<br /><br />
+                        "Saya sudah langganan dari dulu pasti beli skin care di sini" - Wanda Maximoff
                     </p>
                     <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
 
