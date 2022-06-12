@@ -1,7 +1,9 @@
 import { StarIcon } from '@heroicons/react/solid'
 
-import React, { useEffect, useState } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
+import { CartContext } from '../context/CartContext'
+// import useCart from '../hooks/useCart'
 
 function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
@@ -23,8 +25,10 @@ const initialDetail = {
 
 
 const ProductPage = () => {
+    const cart = useContext(CartContext)
     const [isLoading, setLoading] = useState(true)
     const [productDetail, setProductDetail] = useState(initialDetail)
+    // const cart = useCart()
 
     let { id } = useParams();
 
@@ -40,6 +44,14 @@ const ProductPage = () => {
 
         return () => { document.title = "Rada Glow" }
     }, [isLoading, id])
+
+
+    const addToCart = (e) => {
+        // console.log('e', e)
+        console.log('cart', cart)
+        cart.addProduct(e.target.name)
+        e.preventDefault()
+    }
 
     return (
         <div className="bg-white">
@@ -117,10 +129,11 @@ const ProductPage = () => {
                                 <form className="mt-10">
 
                                     <button
-                                        type="submit"
+                                        onClick={addToCart}
+                                        name={productDetail.id}
                                         className="mt-10 w-full bg-indigo-600 border border-transparent rounded-md py-3 px-8 flex items-center justify-center text-base font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                                     >
-                                        Add to bag
+                                        Tambah ke Keranjang
                                     </button>
                                 </form>
                             </div>
