@@ -8,8 +8,11 @@ const useCart = (child) => {
         console.log('id', id)
         setProductList(prev => [...prev, id])
     }
+    const removeProduct = (id) => {
+        setProductList(productList.filter(item => item.id !== id))
+    }
 
-    return { productList, addProduct }
+    return { productList, addProduct, removeProduct }
     // return <child 
 }
 
