@@ -4,9 +4,7 @@ import { Link } from 'react-router-dom'
 const Home = () => {
     return (
         <div class="grid lg:grid-cols-2 gap-0 h-screen">
-            <div className=''>
-                <div class="bg-cover bg-center h-100 lg:h-full" style={{ backgroundImage: "url(https://images.pexels.com/photos/3762871/pexels-photo-3762871.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)" }}></div>
-            </div>
+            <div class="bg-cover bg-center h-full" style={{ backgroundImage: "url(https://images.pexels.com/photos/3762871/pexels-photo-3762871.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)" }}></div>
             <div className='h-full justify-center flex'>
                 <div className='sm:text-center lg:text-left p-5 self-center'>
                     <h1 className="text-5xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-7xl">
