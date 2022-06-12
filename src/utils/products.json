@@ -1,6 +1,6 @@
 [
   {
-    "id": 1,
+    "id": "1",
     "name": "COSRX Low pH Good Morning Cleanser 150ml",
     "caption": "COSRX Low pH Good Morning Cleanser adalah produk asal Korea Selatan yang menggunakan bahan-bahan alami.\n\nPembersih wajah dengan formula lembut yang bagus digunakan pada pagi hari. Mampu membersihkan kulit sensitif sekalipun dengan lembut berkat kandungannya yang memiliki kadar acid yang mirip dengan kadar pH kulit. Gel cleanser ini mampu menenangkan, mengeksfoliasi, melembapkan sekaligus membersihkan kulit wajah. Pembersih wajah ini juga mampu mengangkat sel-sel kulit mati dan minyak berlebih yang muncul selama tidur sehingga wajah menjadi bersih dan segar.",
     "price": 149000,
@@ -13,7 +13,7 @@
     "photo_4": ""
   },
   {
-    "id": 2,
+    "id": "2",
     "name": "SO NATURAL Red Tock Spot Powder 15ml",
     "caption": "2in1 Concealer yang berfungsi sebagai concealer sekaligus obat jerawat dengan kandungan Salicylic Acid, Centella Asiatica dan Tea Tree Oil. Cocok untuk semua jenis kulit. Paraben free. Fragrance free\n\nCara Penggunaan :\nSiang hari: Gunakan Red Tock Spot Powder sebagai concealer saat hendak beraktivitas. Kocok sebelum digunakan, pastikan semua cairan bercampur rata. Gunakan pada jerawat yang ingin ditutupi.\nMalam hari: Gunakan Red Tock Spot Powder sebagai obat jerawat pada malam hari. Diamkan botol hingga cairan concealer dan obat jerawat terpisah. Gunakan cairan bening sebagai obat totol jerawat. \n\nIngredients :\nAlchohol, Titanium Dioxide (Cl 77891), Glycerin, Water, Calamine, Butylene Glycol, Iron Oxides (Cl 77492), Dimethyl Sulfone, Iron Oxides (Cl 77491), Chlophenesin, Salicylic Acid, Melaleuca Altenifolia (Tea Tree) Leaf Oil, Iron Oxides (Cl 77499), Portulaca Oleracea Extract, Propanediol, Centella Asiatica Extract, Avena Sativa (Oat) Meal Extract",
     "price": 320000,
@@ -26,7 +26,7 @@
     "photo_4": ""
   },
   {
-    "id": 3,
+    "id": "3",
     "name": "THE ORDINARY Niacinamide 10% + Zinc 1% 60ml",
     "caption": "Niacinamide 10% + Zinc 1% is a water-based serum with niacinamide (vitamin B3) and zinc\nThis treatment reduces the appearance of blemishes, redness, enlarged pores, uneven tone, and oily skin. It promotes clearer, brighter, and smoother skin while balancing sebum production.\n\nIngredients:\nNiacinamide: a vitamin that brightens and reduces the appearance of skin blemishes and congestion\nZinc PCA: a mineral that helps control oil production",
     "price": 235000,
@@ -39,7 +39,7 @@
     "photo_4": ""
   },
   {
-    "id": 4,
+    "id": "4",
     "name": "THE ORDINARY AHA 30% + BHA 2% Peeling Solution 30ml",
     "caption": "Masker peeling, Exfoliate, acne spot, sel2 kulit mati, mencerahkan, menghaluskan.\n\nDioles merata keseluruh wajah. Didiamkan tidak lebih dari 10menit. Setelah itu dibilas dengan air hangat.\nCukup dipakai 1x seminggu.\n\n* Sebelum pakai, wajah harus dalam keadaan bersih dan kering\n\n* wajib sunscreen siang hari\n\n* Tidak untuk kulit sensitif\n\n* Tidak untuk kulit yg belum pernah menggunakan ACID\n\n* Setelah peeling, hindari produk dgn kandungan acid tinggi 1-3 hari\n\nNote: Formula yg tinggi ACID. Direkomendasikan hanya untuk kulit yg sudah terbiasa / toleran dengan Pengelupasan kimia.",
     "price": 190000,
@@ -52,7 +52,7 @@
     "photo_4": ""
   },
   {
-    "id": 5,
+    "id": "5",
     "name": "DEAR KLAIRS Gentle Black Deep Cleansing Oil 130ml",
     "caption": "Klairs gentle black deep cleansing oil tekstur nya sangat ringan namun efektif, cocok untuk yang berjenis kulit sensitif. Dapat membersihkan kotoran dan makeup dengan mudah tanpa menimbulkan iritasi. Komposisinya yang terdiri dari minyak alami seperti Black Bean membantu untuk mengontrol produksi sebum. Black sesame oil (minyak wijen) menyediakan antioksidan efek dan Black Current Seed Oil memberikan vitamin dan mineral untuk kulit wajah.\n\n\nCara Penggunaan:\n\nGunakan secukupnya (2-3 tetes) dan oleskan pada saat kulit wajah dalam keadaan kering. Pijat perlahan-lahan di bagian dahi, hidung dan pipi.\n\nLalu bilas dengan air hangat selama 2 ~ 3 kali.\n\n\nIngredients:\nCaprylic/Capric Triglyceride, Cetyl Ethylhexanoate, Isononyl Isononanoate, PEG-7 Glyceryl Cocoate , Isopropyl Myristate, Simmondsia Chinensis (Jojoba) Seed Oil, Glycine Soja (Soybean) Oil, Sesamum Indicum (Sesame) Seed Oil , Ribes Nigrum (Black Currant) Seed Oil , Tocopheryl Acetate , PEG-20 Glyceryl Triisostearate , Polysorbate 20, Fragrance, Butyrospermum Parkii (Shea Butter) , Carapa Guaianensis Seed Oil, Vaccinium Macrocarpon (Cranberry) Seed Oil",
     "price": 330000,
@@ -65,7 +65,7 @@
     "photo_4": ""
   },
   {
-    "id": 6,
+    "id": "6",
     "name": "LANEIGE Lip Sleeping Mask Berry 20gr",
     "caption": "Lip Sleeping Mask\n\nMasker tidur untuk bibir yang dengan lembut mengangkat sel kulit mati dari bibir untuk membuat bibir terasa halus dan elastis.\n\nBerry : mengandung aroma berry manis yang menyenangkan; produk Lip Sleeping Mask utama dari Laneige!\n\n!!!PENTING!!!\nSangat disarankan bagi pembeli/penerima untuk merekam video saat pembukaan paket, karena video ini diperlukan sebagai bukti saat ada keluhan mengenai pesanan anda. Tanpa adanya bukti video ini, akan sangat sulit untuk kami bisa memproses keluhan/permintaan anda.",
     "price": 380000,
@@ -78,7 +78,7 @@
     "photo_4": ""
   },
   {
-    "id": 7,
+    "id": "7",
     "name": "BIORE UV Aqua Rich Watery Gel SPF 50 90ml",
     "caption": "Biore UV Aqua Rich Watery Essence SPF 50+/PA+++ adalah pelindung wajah dan badan dari efek buruk sinar UVA dan UVB. Dilengkapi kandungan Aqua Micro Capsule yang memberikan sensasi sejuk di kulit, “mengunci” UV dan bertekstur ringan seperti air, sehingga mampu menjaga kelembaban kulit lebih lama. Terdapat juga kandungan Hyaluronic Acid & Citrus Essence untuk menjaga kulit tetap lembab dan segar tanpa rasa lengket karena mudah menyerap ke dalam kulit.",
     "price": 110000,
@@ -91,7 +91,7 @@
     "photo_4": "https://www.watsons.com.sg/medias/zoom-extra1-85886.jpg?context=bWFzdGVyfHByb2R1Y3RJbWFnZS96b29tfDkzNTI5fGltYWdlL2pwZWd8cHJvZHVjdEltYWdlL3pvb20vaDU0L2g1ZC85MjA3MjE2NzY3MDA2LmpwZ3xkMzEyNGEzNzdkZTljYTQ5OWM5MzY0YzM4M2U5YWNiMTk2MzFmZmQ0YWU5OTA3MTZiMWVmMWQwMjc0ZTY1Y2Fj"
   },
   {
-    "id": 8,
+    "id": "8",
     "name": "COSRX Advanced Snail 92 All in One Cream 100ml",
     "caption": "Krim dengan 92% lendir siput yang berfungsi untuk mempercepat regenerasi kulit dan menghidrasi kulit sehingga kulit lebih lembut, elastis dan terlihat awet muda.\n\n\nCara pakai:\n\n- Gunakan pada pagi dan malam hari setelah pemakaian essence. Bisa juga digunakan langsung setelah membersihkan wajah apabila toner dan essence dirasa tidak perlu.\n\n- Aplikasikan ke wajah dengan gerakan menepuk perlahan dengan ujung jari. Gunakan kedua telapak tangan untuk menutupi wajah selama 2-3 kali untuk mempercepat penyerapan.\n\n- Untuk hasil yang lebih maksimal, gunakan setelah penggunaan Advanced Snail 96 Mucin Power Essence\n\n\nBahan utama:\nSnail Secretion Filtrate 92%\n\nBahan lainnya:\nSnail Secretion Filtrate, Betaine, Caprylic/Capric Triglyceride, Cetearyl Olivate, Sorbitan Olivate, Sodium Hyaluronate, Cetearyl Alcohol, Stearic acid, Arginine, Dimethicone, Carbomer, Panthenol, Allantoin, Sodium Polyacrylate, Xanthan Gum, Ethyl Hexanediol, Adenosine, Phenoxyethanol",
     "price": 320000,
@@ -104,7 +104,7 @@
     "photo_4": ""
   },
   {
-    "id": 9,
+    "id": "9",
     "name": "LA ROCHE POSAY Cicaplast Baume B5",
     "caption": "KULIT TERIRITASI RINGAN, SENSASI PERIH, KENCANG, KEMERAHAN\nIRITASI RINGAN KULIT PADA ORANG DEWASA, ANAK-ANAK, DAN BAYI\n\n\nCicaplast Baume B5 adalah balm multifungsi untuk memberikan rasa nyaman dan melindungi kulit yang teriritasi ringan, untuk seluruh keluarga: bayi, anak-anak, dan orang dewasa.\n\nProduk ini diperkaya dengan Madecassoside – bahan yang merawat & mempertahankan lapisan pelindung, Panthenol – yang memberikan rasa nyaman, dan bahan anti-bakteri. Produk ini membantu memberikan rasa nyaman, menutrisi, dan melindungi kulit kering Anda untuk membantu mempertahankan lapisan pelindung kulit. \n\n\nCara Pakai:\n- Pakai di kulit bersih dan kering, dua kali sehari.\n- Pakai di tubuh, wajah, dan bibir.\n- Hindari daerah sekitar mata.\n- Jangan ditelan. Jauhkan dari bayi dan anak-anak.\n\n\nTekstur:\n- Soothing balm, tidak berminyak, tekstur tidak meninggalkan bekas putih.\n- Mengandung La Roche-Posay Thermal Spring Water.\n\n\nManfaat:\nCicaplast Baume B5 membantu menutrisi dan melindungi, berkat formula lengkapnya:\n- Mempertahankan lapisan pelindung kulit secara optimal: [Madecassoside] + [Copper - Zinc - Manganese]\n- Memberikan rasa nyaman  pada area kulit kering, teriritasi ringan: [5% Panthenol]\n- Perlindungan kulit: [Tekstur yang kaya dan menutrisi] + [Tekstur anti-penempelan bakteri ]\n\n\nPenjelasan Ilmiah:\nCicaplast Baume B5 telah teruji secara klinis pada berbagai kondisi kulit, seperti:\n- Kulit bayi dan anak-anak,\n- Kulit kering, bibir kering,\n- Kulit sensitif,\n- Kulit dengan iritasi ringan\n- Pasca-laser\n\n\nToleransi baik\nNo fragrance.\n\n\nMasa pakai setelah kemasan dibuka:\n6 Bulan",
     "price": "",
@@ -117,7 +117,7 @@
     "photo_4": ""
   },
   {
-    "id": 10,
+    "id": "10",
     "name": "HATOMUGI Skin Conditioner 500ml",
     "caption": "Hatomugi Skin Conditioner 500ml sangat terkenal, khususnya di Jepang, dan merupakan salah satu produk untuk melembabkan dan mencerahkan warna kulit. Hatomugi adalah istilah dalam bahasa Jepang untuk tanaman yang berupa barley/grain/biji-bijian yang dikenal sebagai tanaman untuk kehidupan dan kesehatan.\nKandungan dalam produk Hatomugi Skin Conditioner sangat efektif untuk perawatan terhadap jerawat serta mampu melawan flek-flek hitam, noda dan penuaan kulit.\n\n\n\nKegunan:\n\n- Sangat melembabkan dan menutri.\n\n- Melindungi kulit dengan hidrasi yang tinggi.\n\n- Mengatasi iritasi untuk menjaga kulit tetap halus dan lembut.\n\n- Meredakan kemerahan akibat terbakar sinar matahari.\n\n\n\nCara Penggunaan:\n\nSebagai Masker Wajah\nBasahi 4 lembar kapas wajah dengan Hatomugi Skin Conditioner dan tempelkan pada wajah kurang lebih 3 menit.\n\nSebagai Perawatan Tubuh\nOleskan pada kulit tubuh sehabis mandi\n\nSebagai Toner\nBasahkan kapas dengan Hatomugi Skin Conditioner lalu usapkan kapas tersebut pada wajah yang telah dibersihkan\n\nSebagai spray\nTuangkan pada botol semprot yang bersih, gunakan sebagai sprayer wajah & tubuh untuk efek segar & lembab di luar maupun dalam ruangan",
     "price": 117000,
@@ -130,7 +130,7 @@
     "photo_4": ""
   },
   {
-    "id": 11,
+    "id": "11",
     "name": "MEDIHEAL Teatree Care Solution Essential Mask EX",
     "caption": "Teatree Mask adalah masker yang dapat meredakan stres dan menenangkan kulit. Kandungan dari ekstrak tea tree leaf oil, pine needle, dan portulaca oleracea akan menenangkan kulit yang mengalami iritasi dan menyegarkan kulit tanpa rasa lengket setelah anda menggunakannya.\n\nJenis Kulit : Berminyak\n\nMengatasi permasalahan kulit : Berminyak/ Berjerawat, Sensitif, Iritasi Kulit\n\n\n\nCara Penggunaan : \n\nUsapkan toner pada wajah yang sudah di bersihkan. Keluarkan dan lepaskan masker dari kemasan, dan letakan lembaran pada wajah.\n\nIstirahatlah dengan nyaman selama 10 - 20 menit lalu lepaskan masker\n\nBerikan tepukan lembut untuk membantu penyerapan formula\n\nDikarenakan terjadi pergantian kulit di 4 minggu, paling efektif menggunakan masker secara berurutan 2-3 kali seminggu dalam 4 minggu\n\n\n\nKomposisi :\n\nWater, tea tree leaf oil, tea tree extract, willow bark extract, centella asiatica extract, hottuynia cordata extract, soybean seed extract, pea extract, sage extract, lavender extract, matricaria extract, rosemary extract, cymbopogon schoenanthus extract, boswellia serrata resin extract, glycerin, propanediol, 1,2 hexanediol, xanthan gum, butylene glycol, panthenol, trehalose, betaine, carbomer, allantoin, polysorbate 80, arginine, disodium EDTA, dipotassium glycyrrhizate, tocopheryl acetate",
     "price": 29000,
@@ -143,7 +143,7 @@
     "photo_4": ""
   },
   {
-    "id": 12,
+    "id": "12",
     "name": "GARNIER Micellar Water 400ml",
     "caption": "Pembersih wajah selembut air, bersihkan wajah dalam 1 kali usap secara menyeluruh!\n\nAll-in-One Micellar Cleansing Water yang dapat membersihkan dan menghapus kotoran, debu, dan make-up dalam 1 kali usap dengan lembut dan tidak perlu dibilas. Cocok untuk semua jenis kulit, termasuk kulit sensitif.\n\nGarnier Micellar Cleansing Water, diperkaya dengan Micelles, dapat mengikat dan mengangkat debu, kotoran, juga make-up dari wajah, mata, dan bibir. Tektsturnya ringan seperti air, sehingga dapat menghilangkan kotoran dan make-up dari wajah secara lembut tanpa perlu dibilas. Formulanya tidak lengket di wajah, tidak berminyak, dan tanpa parfum sehingga cocok untuk semua jenis kulit termasuk kulit sensitif.\n\nGarnier Micellar Water Pink\n\nEfektif untuk membersihkan makeup, mengangkat kotoran, serta menyegarkan wajah. Formulanya tidak lengket di wajah, tanpa alkohol dan parfum, sehingga sangat cocok untuk semua jenis kulit termasuk kulit sensitif.\n\n\n\nHighlight Product:\n\n(1) Product Baru.\n(2) Cocok untuk kulit berjerawat.\n(3) Membersihkan Noda Secara Menyeluruh.\n(4) Mengangkat Debu dan Kotoran.\n\n\n\nCara Penggunaan:\n\n(1) Kocok botol beberapa saat sebelum digunakan.\n(2) Tuangkan Micellar Water ke kapas.\n(3) Bersihkan wajah secara perlahan-laham.",
     "price": 89000,
@@ -156,7 +156,7 @@
     "photo_4": ""
   },
   {
-    "id": 13,
+    "id": "13",
     "name": "BANILA CO. Clean It Zero Cleansing Balm Original 100ml",
     "caption": "All in one Cleansing Balm yang membersihkan dengan lembut dengan bahan yang membersihkan ketidaksempurnaan kulit serta membersihkan bahkan makeup yang 'heavy'.\n\nClean it Zero Cleansing Balm Original merupakan pembersih yang hypoallergenic yang teksturnya dapat berubah dari tekstur seperti 'sherbet' menjadi tekstur minyak yang lembut ketika diaplikasikan ke kulit. Dikembangkan untuk membersihkan makeup tahan air dan semua ketidaksempurnaan kulitmu hanya dalam satu langkah. Dengan 'Zero Balance Technology' membersihkan secara mendalam dan mengeksfoliasi tanpa membuat kulit tertarik, membuat ulit tetap terhidrasi dan segar.\n\n\n\nCara Pemakaian :\nGunakan spatula yang tersedia untuk mengambil balm. Pijat dengan lembut dalam gerakan melingkar pada kulit yang kering menggunakan jari tangan. Bilas menggunakan air hangat, lalu keringkan menggunakan handuk atau tisu wajah. Tepuk-tepuk hingga kering.",
     "price": 280000,
@@ -169,7 +169,7 @@
     "photo_4": ""
   },
   {
-    "id": 14,
+    "id": "14",
     "name": "NATURE REPUBLIC Soothing & Moisture Aloe Vera 92% Soothing Gel 300ml",
     "caption": "Oleskan secukupnya pada area yang diinginkan (kulit wajah, tubuh, rambut, dll) secara merata. \n\n\n\nTips penggunaan: \n\n- Sleeping Pack: Aplikasikan ke seluruh wajah secara merata, dapat ditambahkan face oil yang Anda inginkan. Diamkan semalaman dan bilas hingga bersih keesokkan harinya. \n\n- Makeup base: Campurkan dengan primer dengan perbandingan 2:1. Aplikasikan ke seluruh wajah secara merata. Akan menghasilkan makeup yang tampak bercahaya. \n\n- Pelembap seluruh tubuh (kulit, badan, tangan, kuku): Aplikasikan pada area tersebut secara merata. \n\n- Area mata dan bibir: Aplikasikan gel dengan menggunakan kapas, dan tempelkan pada area tersebut. \n\n- Gel pasca cukur: Aplikasikan setelah bercukur untuk melembapkan. After-sun Gel: Aplikasikan pada area kulit setelah berjemur dan dapatkan sensasi sejuk pada kulit.",
     "price": 98000,
@@ -182,7 +182,7 @@
     "photo_4": ""
   },
   {
-    "id": 15,
+    "id": "15",
     "name": "LANEIGE Water Sleeping Mask 70ml",
     "caption": "Laneige Water Sleeping Mask ialah masker wajah yang digunakan pada malam hari pada saat tidur yang dapat membuat kulit menjadi segar dan cerah keesokan harinya. Laneige Water Sleeping Mask Merupakan versi terbaru dari yang sebelumnya bernama Water Sleeping Pack.\n\nHow to Use:\nAplikasikan pada seluruh bagian wajah secara merata pada malam hari, kemudian bilas dengan air hingga bersih pada keesokan paginya.\n\nSuitable for:\nSemua jenis kulit\n\nIngredients:\nWater, Butylene Glycol, Cyclopentasiloxane, Glycerin, Cyclohexasiloxane, Trehalose, Sodium Hyaluronate, Oenothera Biennis (Evening Primrose) Root Extract, Prunus Armeniaca (Apricot) Fruit Extract, Beta-Glucan, Chenopodium Quinoa Seed Extract, Ascorbyl Glucoside, Magnesium Sulfate, Zinc Sulfate, Manganese Sulfate, Calcium Chloride, Potassium Alginate, Ammonium Acryloyldimethyltaurate/VP Copolymer, Polysorbate 20, Dimethicone, Dimethiconol, Dimethicone/Vinyl Dimethicone Crosspolymer, Propanediol, Ethylhexylglycerin, Stearyl Behenate, Polyglyceryl-3 Methylglucose Distearate, HYDROXYPROPYL BISPALMITAMIDE MEA, Inulin Lauryl Carbamate, Alcohol, 1, 2-Hexanediol, Caprylyl Glycol, Carbomer, Tromethamine, Disodium EDTA, Phenoxyethanol, Fragrance, CI 42090",
     "price": 380000,
@@ -195,7 +195,7 @@
     "photo_4": ""
   },
   {
-    "id": 16,
+    "id": "16",
     "name": "SKIN1004 Madagascar Centella Asiatica Ampoule 100ml",
     "caption": "Skin1004 Madagascar Centella-Asiatica 100 Ampoule terbuat dari 100% ekstrak Centella Asiatica yang aman bagi kulit sensitif\ndan menjadikan kulit lebih cerah dan muda. Ekstrak Centella Asiatica tersebut terdiri dari 30% Asiaticoside yang dapat menyeimbangkan kadar minyak pada kulit, 30% Asiatic Acid yang dapat meningkatkan lapisan perlindungan kulit dan dapat berfungsi sebagai antioksidan, serta 40% Madecassic Acid yang dapat memperbaiki kulit yang bermasalah. Memiliki formula yang cepat menyerap dan melembapkan kulit.\n\nHow to Use:\nAplikasikan pada seluruh wajah secukupnya setelah menggunakan toner. Dapat juga dicampurkan pada pelembap favorit, dicampurkan dengan air untuk digunakan sebagai face mist, atau tuangkan pada kapas dan dijadikan sebagai masker.\n\nSuitable for:\nSemua jenis kulit\n\nIngredients:\nCentella Asiatica extract 100%",
     "price": 250000,
@@ -208,7 +208,7 @@
     "photo_4": ""
   },
   {
-    "id": 17,
+    "id": "17",
     "name": "SKIN1004 Madagascar Centella Asiatica Toner 210ml",
     "caption": "Main Ingredients Centella Asiatica Extract, PHA (gluconolactone), Hyaluronic acid Product Introduction A Toning Toner that contains Centella Asiatica extract from the unsullied island of Madagascar, and PHA, which helps clean off dead skin cells, for a more hydrated and clean skin Product Characteristics The PHA, noted for its compatibility with sensitive skin, softens and brightens dull skin by exfoliating dead skin cells, while the high concentration level of Centella Asiatica and Hyaluronic acid help to calm and hydrate the skin. How to Use After cleansing, use a generous amount to gently apply to face and lightly massage for absorption.\n\n\nHow to Use:\nSoak a cotton pad with toner, then swipe it over your entire face and neck. You should use toner after washing your face, and before using serum or moisturizer\n\n\nIngredients:\nCentella Asiatica Extract, PHA (gluconolactone)",
     "price": 211000,
@@ -221,7 +221,7 @@
     "photo_4": "https://www.hellojunghana.com/image/hellojunghana/image/data/all_product_images/product-385/cJwLR9OA1598171729.jpeg"
   },
   {
-    "id": 18,
+    "id": "18",
     "name": "IUNIK Centella Calming Gel Cream 60ml",
     "caption": "iUNIK Centella Calming Gel Cream is a refreshing and moisturizing oil-free cream that makes the skin clearer and more vibrant. Enriched with Centella Asiatica Leaf Water 70% and Tea tree Leaf Water 10%, gently lowers skin temperature, effectively soothes and calms sensitive skin with blemishes. Lightweight gel texture containing 6 kinds of sprout extracts fully moisturizes skin and helps relieve skin stress, creating clear, refreshed skin in a good condition. Whitening & Wrinkle Care Double Functional Cosmetics.\n\n\nIngredients:\n\nCentella Asiatica Leaf Water, Melaleuca Alternifolia (Tea Tree) Leaf Water, Butylene Glycol,Water, Niacinamide, Phenyl Trimethicone, Cyclopentasi loxane, Cyclohexasiloxane, Acrylates/ C10-30 Alkyl Acrylat Crosspolymer, Arginine, Sodium Hyalurnate,1,2Hexanediol, Caprylyl Glycol,C12-14 Pareth-12, Dimethicone/Vinyl Dimethicone Crosspolymer, Dim ethicone Crosspolymer,Brassica Oleracea Italica(Broccoli)Extract, Medicago Sativa(Alfalfa)Extract, Brassica oleracea Capitata (Cabbage) Leaf Extract, Triticum Vulgare (Wheat) Germ Extract,Brassica Campestris (Rapeseed)Extract, Raphanus Sativus (Radish) Seed Extract, Allantoin, Centella Asiatica Extract,Melaleuca Alternifolia (Tea Tree) Leaf Extract, Ethylhexylglycerin, Adenosine, Dipo tassium Glycyrrhizate, Citrus Aurantium Bergamia (Bergamot)Fruit Oil, Pentylene Glycol,Aspalathus Linearis Extract, Glycyrrhiza Glabra(Licorice) Root Extract, Commiphora Myrrha Resin Extract, Perilla Frutescens Leaf Extract, Yucca Schidigera Root Extract.",
     "price": 127000,
@@ -234,7 +234,7 @@
     "photo_4": ""
   },
   {
-    "id": 19,
+    "id": "19",
     "name": "DEAR KLAIRS Midnight Blue Calming Cream",
     "caption": "Klairs Midnight Blue Calming Cream dapat melindungi kulit sensitif dari iritasi dan stress. Mengandung ektsrak chamomile yang dapat menenangkan kulit yang rusak dan meregenerasi sel kulit. Dapat pula digunakan untuk mengatasi kulit yang terkabar, eczema, dan penyakit kulit lainnya. Selain itu juga mengandung centella asiatica yang dapat mengatasi kulit yang rusak dan mencegah luka.\n\nHow To Use:\nAmbil sedikit produk lalu aplikasikan pada seluruh wajah dan ratakan.\n\nSuitable For:\nKulit sensitif\n\nIngredients:\nWater, Cetyl Ethylhexanoate, Butylene Glycol, Glycerin, Sodium Hyaluronate, Caprylic/Capric , Triglyceride, Centella Asiatica Extract, Sorbitan Stearate, Cetyl Alcohol, Butyrospermum Parkii (Shea Butter), Argania Spinosa Kernel Oil, Simmondsia Chinensis (Jojoba) Seed Oil, Sorbitan Sesquioleate, Glyceryl Stearate, Stearic Acid, Portulaca Oleracea Extract, Anthemis Nobilis Flower Extract, Ceramide 3, Polysorbate 60, Bees Wax, Chlorphenesin, Tocopheryl Acetate, Xanthan Gum, Acrylates/C10-30 Alkyl, Acrylate Crosspolymer, Morus Alba Root Extract, Triethanolamine , Brassica Oleracea Italica (Broccoli) Extract, Lavandula Angustifolia (Lavender) Oil, Eucalyptus Globulus Leaf Oil, Pelargonium Graveolens Flower Oil, Citrus Limon (Lemon) Peel Oil, Citrus Aurantium Dulcis (Orange) Peel Oil, Cananga Odorata Flower Oil, Guaiazulene, Acetyl Hexapeptide-8, Lecithin, Acetyl Glutamine, SH-Oligopeptide-1, SH-Oligopeptide-2, SH-Polypeptide-1, SH-Polypeptide-9, SH-Polypeptide-11, Bacillus/Soybean/Folic Acid Ferment Extract, Caprylyl Glycol, 1,2-Hexanediol.",
     "price": 450000,
@@ -247,7 +247,7 @@
     "photo_4": "https://cf.shopee.vn/file/130f39c2f091f25a002e4e04adb3ef70"
   },
   {
-    "id": 20,
+    "id": "20",
     "name": "AZTEC SECRET Indian Healing Clay",
     "caption": "World's Most Powerful Facial\"\n\nDeep Pore Cleansing\n\n100% Natural Calcium Bentonite Clay\n\nFeel Your Face Pulsate\n\nFacials, acne, bodywraps, clay baths, foot soaks, chilled clay for knee packs and insect bites! Enjoy the benefits of clay in your own home. Beautify & Refresh.\n\nDirections\n\nMix clay with equal parts of raw apple cider vinegar and/or water. Use a non-metal bowl and utensil. Stir the mixture into a smooth paste. Add more clay or liquid as needed. Apply 1/4 in. to 1/2 to the face or other area. Let it dry for 5-10 min. for delicate skin and 15-20 min for normal skin. You will feel a pulling and tightening sensation. Feel Your Face Pulsate! Remove clay by washing with warm water. Slight redness of the skin is normal and will disappear in about 30 minutes. Removes impurities and dirt from the pores.\n\nFree Of\nFragrances, animal testing, and animal products",
     "price": 270000,
