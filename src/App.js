@@ -8,13 +8,14 @@ import Home from './page/Home';
 import ProductPage from './page/ProductPage';
 import FeaturedListPage from './page/FeaturedList';
 import ReactGA from 'react-ga';
+import useGaTRacker from './utils/useGaTRacker';
 
 const TRACKING_ID = "UA-155000208-1"; // OUR_TRACKING_ID
 ReactGA.initialize(TRACKING_ID);
 
 function App() {
 
-
+  useGaTRacker()
   return (
     <>
       <Header />

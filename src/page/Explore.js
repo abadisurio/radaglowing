@@ -5,7 +5,7 @@ import useGaTRacker from '../utils/useGaTRacker';
 const ExplorePage = () => {
     const gaEventTracker = useGaTRacker('Explore Page');
     useEffect(() => {
-        gaEventTracker('exlpore')
+        gaEventTracker('explore')
     })
 
     return (
