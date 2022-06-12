@@ -12,6 +12,7 @@ import useGaTRacker from './utils/useGaTRacker';
 import Cart from './page/Cart';
 import useCart from './hooks/useCart';
 import { CartContext } from './context/CartContext';
+import CheckedOut from './page/CheckedOut';
 
 const TRACKING_ID = "UA-155000208-1"; // OUR_TRACKING_ID
 ReactGA.initialize(TRACKING_ID);
@@ -32,6 +33,7 @@ function App() {
           <Route path="/product/:id" element={<ProductPage />} />
           <Route path="/featured/:id" element={<FeaturedPage />} />
           <Route path="/featured" element={<FeaturedListPage />} />
+          <Route path="/checked-out" element={<CheckedOut />} />
           <Route path="/explore" element={<ExplorePage />} />
           <Route path="/about" element={<About />} />
           {/* <Route path='/cart' element={<Cart />} /> */}
