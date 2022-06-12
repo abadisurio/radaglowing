@@ -19,7 +19,7 @@ ReactGA.initialize(TRACKING_ID);
 
 function App() {
 
-  // useGaTRacker()
+  useGaTRacker()
   const location = useLocation()
   const cart = useCart()
   const background = location.state && location.state.background;
