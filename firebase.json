@@ -1,6 +1,5 @@
 {
   "hosting": {
-    "site": "radaglow",
     "public": "build",
     "ignore": [
       "firebase.json",
