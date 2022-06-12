@@ -9,7 +9,7 @@ const Home = () => {
                 <div className='sm:text-center lg:text-left p-5 self-center'>
                     <h1 className="text-5xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-7xl">
                         <span className="block xl:inline">Skin Care</span>{' '}
-                        <span className="block text-indigo-600 xl:inline">khusus buat kamu si paling <span className='underline'>kere</span></span>
+                        <span className="block text-indigo-600 xl:inline">khusus buat kamu yang selalu <span className='underline'>care</span></span>
                     </h1>
                     <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
                         Boleh dilihat-lihat dulu kakak produk yang kami tawarkan<br /><br />
@@ -22,7 +22,7 @@ const Home = () => {
                                 to="/explore"
                                 className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"
                             >
-                                Jelajahi koleksi
+                                Jelajahi produk
                             </Link>
                         </div>
                     </div>
