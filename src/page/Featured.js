@@ -25,6 +25,8 @@ const FeaturedPage = () => {
         setLoading(false)
         setFeaturedDetail(featuredDetail)
         setProductCollection(productCollection)
+        document.title += " - " + featuredDetail.title
+        return () => { document.title = "Rada Glow" }
     }, [isLoading, id])
 
     return (
