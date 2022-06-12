@@ -10,7 +10,6 @@ import FeaturedListPage from './page/FeaturedList';
 import ReactGA from 'react-ga';
 import useGaTRacker from './utils/useGaTRacker';
 import Cart from './page/Cart';
-import { createContext, useEffect } from 'react';
 import useCart from './hooks/useCart';
 import { CartContext } from './context/CartContext';
 
